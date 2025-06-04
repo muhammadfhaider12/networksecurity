@@ -73,6 +73,10 @@ MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
 
 
 
+TRAINING_BUCKET_NAME = "networkssecurityproject"
+
+
+
 
 
 
