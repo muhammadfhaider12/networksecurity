@@ -29,7 +29,7 @@ from urllib.parse import urlparse
 import mlflow
 
 import dagshub
-dagshub.init(repo_owner='muhammadfhaider12', repo_name='networksecurity', mlflow=True)
+dagshub.init(repo_owner='muhammadfhaider12', repo_name='networksecurity', mlflow=True,  token=os.getenv("DAGSHUB_TOKEN") )
 
 class ModelTrainer:
     def __init__(self, model_trainer_config: ModelTrainerConfig, data_transformation_artifact:DataTransformationArtifact):
